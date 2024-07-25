@@ -26,6 +26,7 @@ function hendleSearch(event) {
       messageColor: '#ffffff',
       backgroundColor: '#EF4040',
     });
+    hideLoader();
     return;
   }
 
