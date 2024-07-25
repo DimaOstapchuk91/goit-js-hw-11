@@ -20,7 +20,7 @@ function hendleSearch(event) {
 
   if (!inputValue) {
     iziToast.error({
-      iconUrl: '/img/vector.svg',
+      iconUrl: './img/vector.svg',
       message: `Please enter the data in the input field`,
       position: 'topRight',
       messageColor: '#ffffff',
@@ -34,7 +34,7 @@ function hendleSearch(event) {
     .then(data => {
       if (!data.hits.length) {
         iziToast.error({
-          iconUrl: '/img/vector.svg',
+          iconUrl: './img/vector.svg',
           message: `Sorry, there are no images matching<br>your search query. Please try again!`,
           position: 'topRight',
           messageColor: '#ffffff',
